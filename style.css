@@ -97,3 +97,30 @@ body {
   line-height: 1.6;
   white-space: pre-wrap; /* respeita quebras de linha */
 }
+
+.musica {
+  background: #fff8f4;
+  border: 2px solid #f0c0d0;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 350px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.musica img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.musica h3 {
+  font-family: 'Pacifico', cursive;
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.musica audio {
+  width: 100%;
+}
